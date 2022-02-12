@@ -9,10 +9,6 @@ body {
   border-radius: 0;
   border: 0;
 }
-#collapsable-nav {
-	background-color: #f5cf8e;
-	position: relative;
-}
 
 .navbar-brand {
   padding-top: 20px;
@@ -70,4 +66,8 @@ body {
 	border: 15px solid #dfd6dd;
 }
 /*End Content*/
-/*dfd6dd bea28c*/
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #f5cf8e;
+  }
+}
